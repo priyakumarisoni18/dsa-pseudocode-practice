@@ -1,0 +1,7 @@
+START
+
+INPUT num1, num2
+SUM num1+num2
+PRINT SUM 
+
+END
