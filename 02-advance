@@ -1,8 +1,93 @@
 // Check whether a number is positive, negative and zero
+START
+INPUT num 
+IF num > 0 THEN
+OUTPUT "POSITIVE"
+ELSE IF num < 0 THEN
+OUTPUT "NEGATIVE"
+ELSE 
+OUTPUT "ZERO"
+END IF
+
+END
+
 // Check whether a number is even or odd
+START
+INPUT num 
+IF num %2 == 0 THEN
+OUTPUT "EVEN"
+ELSE 
+OUTPUT "ODD"
+END IF
+
+END
+
 //Find the greater of two number
+START
+INPUT a, b
+IF a > b THEN
+OUTPUT "a is greater number"
+ELSE 
+OUTPUT "b is greater number"
+END IF
+
+END
+
 //Find the greatest among three number
+START
+INPUT a, b, c 
+IF a > b && b > c THEN
+OUTPUT "a"
+ELSE IF b > a && b > c THEN
+OUTPUT "b"
+ELSE 
+OUTPUT "c"
+END IF
+
+END
+
 //Check whether a person is eligible to vote based on age.
+START
+INPUT vote
+IF vote >= 18 THEN
+OUTPUT "Eligible"
+ELSE 
+OUTPUT "Not Eligible"
+END IF
+
+END
+
 //Check whether a number is divisible by 5
+START
+INPUT num 
+IF num % 5 == 0 THEN
+OUTPUT "Divisible"
+ELSE 
+OUTPUT "Not Divisible"
+END IF
+
+END
+
 //Check whether a student has passed or failed. (passing marks = 40)
+START
+INPUT marks
+IF marks >= 40 THEN
+OUTPUT "Pass"
+ELSE 
+OUTPUT "Fail"
+END IF
+
+END
+
 //Check whether a year is a leap year
+START
+INPUT year
+IF year % 400 == 0 OR year % 4 == 0 THEN
+OUTPUT "Leap year"
+//ELSE IF num %100 == 0 THEN
+//OUTPUT "Not a leap year"
+ELSE 
+OUTPUT "Not a leap year"
+END IF
+
+END
