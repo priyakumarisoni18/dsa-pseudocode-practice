@@ -1,9 +1,71 @@
 //Print numbers from 1 to 10
+START
+
+FOR i = 1 TO 10 
+    OUTPUT i
+END FOR 
+END
+
 //Print number from 10 to 1
+START
+
+FOR i = 10 DOWNTO 1
+    OUTPUT i
+END FOR
+
+END
+
 //Print all even numbers from 1 to 50
+START
+
+FOR i = 1 TO 50 
+    IF i % 2 == 0 THEN
+    PRINT i
+    END IF
+END FOR
+
+END 
+
 //Print all odd numbers from 1 to 50
+
+START
+
+FOR i = 1 TO 50 
+    IF i % 2 != 0 THEN
+    PRINT i
+    END IF
+END FOR
+
+END 
+
 //Find the sum of numbers from 1 to N
+
+START
+
+INPUT N 
+sum = 0         // initially 0
+
+FOR i = 1 TO N
+    sum = sum + i
+END FOR
+OUTPUT sum
+
+END
+
 //Find the factorial of N
+
+START
+
+INPUT N 
+factorial = 1         // initially 1
+
+FOR i = 1 TO N
+    factorial = factorial * i
+END FOR
+OUTPUT factorial
+
+END
+
 //Print the multiplication table of a given number
 //Count the number of digits in an integer
 //Find the sum of digits of a number. 1234 ->10
